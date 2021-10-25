@@ -1,0 +1,158 @@
+.classe1{
+font-size: large;
+color: black;
+}
+
+#wrapper {
+  overflow-x: hidden;
+    
+}
+
+.d-flex{
+  padding-top: 10%; 
+  
+  width: 100%;
+}
+
+.sideBarLeft{
+  position: fixed;
+  top:60px;
+
+}
+
+.item{
+    
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10Px;
+    margin-right: 10Px;
+    padding: 15px;
+    font-family: "dunbarlowregular", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.item:focus{
+    background: #FF5835;
+    color: white;
+}
+
+
+
+.itemStyle{
+    color: #d5e2e6;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+  
+  #sidebar-wrapper .list-group {
+    width: 17rem;
+    background-color: #343a40;
+    overflow: auto;
+    height: 450px;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+
+    @font-face {
+        font-family: 'dunbarlowregular';
+        src: url('../fonts/dunbarlow-webfont.woff') format('woff2'),
+             url('../fonts/dunbarlow-webfont.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      
+      }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+}
+
+.active{
+  color: #d5e2e6;
+  background: #FF5835;
+}
+
+
+
+.item:hover{
+    color: #d5e2e6;
+    background: #FF5835;
+}
+
+.itemSubSideBar{
+    text-decoration: none;
+    color: #787888;
+    font-size: larger;
+    
+    
+}
+
+.itemSubSideBar :active{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itemSubSideBar:hover{
+    color: #FF5835;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itemSubSideBar:focus{
+    color: #FF5835;
+    text-decoration: none;
+    font-weight: bold;
+    background:#FF5835;
+    background-color: #FF5835;
+}
+
+.subsubelmt{
+  color: #787878;
+}
+
+.sub{  
+  display: contents;
+}
+
+.sub:hover{
+  width: 100px;
+}
+
+.itemStyle:focus{
+    color: white;
+}
+
+.contentSide{
+  padding-top: 60px;
+  padding-left: 200px;
+  
+}
